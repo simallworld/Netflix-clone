@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgba(26, 18, 81, 0.74); */
+}
+
+.wrapper{
+    height: 100vh;
+    width: 90vw;
+}
+
+.nav img{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    float: left;
+}
+
+img{
+    cursor: pointer;
+    width: 150px;
+}
+ 
+.nav_r{
+    float: right;
+}
+
+.hero_sec h1{
+    margin-top: 12%;
+    margin-left: 70px;
+    font-size: 60px;
+    position: absolute;
+}
+
+.hero_sec h2{
+    margin-top: 23%;
+    margin-left: 70px;
+    font-size: 23px;
+    position: absolute;
+}
+
+.hero_sec h3{
+    margin-top: 26.5%;
+    margin-left: 70px;
+    font-size: 16px;
+    position: absolute;
+}
+
+.hero_sec input{
+    margin-top: 30%;
+    font-size: 15px;
+    position: absolute;
+    margin-left: -108px;
+    width: 320px;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(190, 190, 190, 0.384);
+    border: none;
+}
+
+.hero_sec button{
+    margin-top: 30%;
+    margin-left: 220px;
+    font-size: 22px;
+    position: absolute;
+    height: 45px;
+    width: 170px;
+    padding-left: 22px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.hero_sec button:hover{
+    background-color: rgb(239, 2, 2);
+}
+
+.slt_lang{padding: 5px;
+    margin-right: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.nav{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sbtn{padding: 5px;
+    margin-top: 5px;
+    height: 30px;
+    width: 70px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.cards{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 600px;
+    position: absolute;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    
+    /* padding: 0px 10px 0px 10px; */
+}
+
+.c1{
+    margin: 10px;
+    margin: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 335px;
+    height: 350px;
+    text-align: left;
+    background-image: linear-gradient(rgb(82,13,56), rgb(23,15,72));
+    border-radius: 10px;
+    color: white;
+}
+.c1 img{
+    width: 120px;
+}
+
+.c1 h4{
+    font-family: sans-serif;
+    font-weight: 50;
+}
+
+.c1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.c1 h1, h4{
+    margin-top: 15px;
+}
+
+
+.FAQ{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1030px;
+    margin-bottom: 50px;
+    padding: 50px;
+    color: white;
+    position: absolute;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 700px;
+    width: 1370px;
+    background-color: rgb(23,15,72);
+}
+
+.membership input{
+    margin-top: 120%;
+    font-size: 15px;
+    position: absolute;
+    margin-left: -70px;
+    width: 320px;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(190, 190, 190, 0.384);
+    border: none;
+}
+
+.membership button{
+    margin-top: 120%;
+    margin-left: 262px;
+    font-size: 22px;
+    position: absolute;
+    height: 45px;
+    width: 170px;
+    padding-left: 22px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.FAQ_B p{
+    margin-top: 117%;
+    margin-left: 120px;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+}
